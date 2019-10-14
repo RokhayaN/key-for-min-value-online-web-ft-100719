@@ -8,3 +8,4 @@ def key_for_min_value(coffee_choice)
   coffee_choice.each.do |coffee,count|
     count.min
 end
+  end 
