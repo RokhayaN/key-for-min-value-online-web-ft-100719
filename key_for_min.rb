@@ -6,6 +6,6 @@ coffee_choice ={"expresso": 10
                "creamicino": 4}
 def key_for_min_value(coffee_choice)
   coffee_choice.each.do |coffee,count|
-    count.min
+    coffee_choice count.min
 end
   end 
